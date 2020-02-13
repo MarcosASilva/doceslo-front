@@ -15,7 +15,7 @@ export default class Bolo extends Component {
       return  (<div className=" item ">
         <div className="card card-conteudo">
           <img
-            className="card-img-top"
+            className="card-img-top img-conteudo"
             src= {bolo.foto}
             alt="Card  cap"
           />

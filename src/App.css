@@ -25,6 +25,9 @@ nav a {
 .bolo {
   max-height: 186px;
 }
+.img-conteudo {
+  max-height: 160px;
+}
 .item {
       
   margin-top: 35px !important;

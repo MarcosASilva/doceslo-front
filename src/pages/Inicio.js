@@ -4,32 +4,10 @@ import "../../node_modules/jquery/dist/jquery.min.js";
 import "../../node_modules/bootstrap/dist/js/bootstrap.min.js";
 import '../App.css';
 import Navbar from '../components/Navbar'
-import Bolo from  '../components/Bolo'
 
 export default class Inicio extends Component {
   render(){
-    const bolos = [
-      {
-        'nome' : 'bolo1',
-        'tamanho' : 'pequeno',
-        'preco' : 65 
-      },      
-      {
-        'nome' : 'bolo2',
-        'tamanho' : 'medio',
-        'preco' : 85 
-      },
-      {
-        'nome' : 'bolo3',
-        'tamanho' : 'grande',
-        'preco' : 95 
-      },
-      {
-        'nome' : 'bolo4',
-        'tamanho' : 'Extra',
-        'preco' : 125 
-      }
-    ];
+
     return (
       <div className="App">
         <Navbar />
