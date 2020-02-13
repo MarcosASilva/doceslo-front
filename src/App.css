@@ -16,6 +16,15 @@ nav a {
   flex-wrap: wrap;
   flex-grow: 1;
 }
+.itens-inicio {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.bolo {
+  max-height: 186px;
+}
 .item {
       
   margin-top: 35px !important;
@@ -28,4 +37,13 @@ nav a {
 .linha {
   padding: 2px;
   background-color: rgba(233,148,230,1)
+}
+.titulo {
+  font-size: 80px !important;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.subtitulo {
+  font-size: 30px !important;
+  
+  font-family: Georgia, 'Times New Roman', Times, serif
 }
